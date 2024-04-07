@@ -1,0 +1,9 @@
+# NAME: Akamai
+payload:
+  - DOMAIN-SUFFIX,akamai.com
+  - DOMAIN-SUFFIX,akamaistatus.com
+  - DOMAIN-SUFFIX,akamaicentral.com
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,klasen.se
+  - DOMAIN-SUFFIX,linode.com
+  - DOMAIN-SUFFIX,go-mpulse.net
