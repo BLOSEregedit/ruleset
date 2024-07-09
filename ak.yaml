@@ -13,3 +13,4 @@ payload:
   - DOMAIN-SUFFIX,postman.com
   - DOMAIN-SUFFIX,akaorigin.com
   - DOMAIN-SUFFIX,akamaipartnertraining.com
+  - DOMAIN-SUFFIX,cloudflare.com
