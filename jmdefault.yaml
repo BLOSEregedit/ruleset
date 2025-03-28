@@ -1,0 +1,27 @@
+# NAME: 锦木默认规则
+# 规则格式参考：https://clash.wiki/configuration/rules.html
+payload:
+  - DOMAIN-SUFFIX,akamai.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,akamaistatus.com
+  - DOMAIN-SUFFIX,akamaicentral.com
+  - DOMAIN-SUFFIX,akamaipartnertraining.com
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,klasen.se
+  - DOMAIN-SUFFIX,linode.com
+  - DOMAIN-SUFFIX,go-mpulse.net
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,csod.com
+  - DOMAIN-SUFFIX,catchpoint.com
+  - DOMAIN-SUFFIX,postman.com
+  - DOMAIN-SUFFIX,akaorigin.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,couchbase.com
+  - DOMAIN-SUFFIX,mongodb.com
+  - DOMAIN-SUFFIX,zendesk.com
+  - DOMAIN-SUFFIX,vonageforhome.com
+  - DOMAIN-SUFFIX,vonage.hk
+  - DOMAIN-SUFFIX,vonage.com
+  - DOMAIN-SUFFIX,similarweb.com
+  - DOMAIN-SUFFIX,webpagetest.org
+  - DOMAIN-SUFFIX,nexmo.com
