@@ -25,3 +25,4 @@ payload:
   - DOMAIN-SUFFIX,similarweb.com
   - DOMAIN-SUFFIX,webpagetest.org
   - DOMAIN-SUFFIX,nexmo.com
+  - DOMAIN-SUFFIX,linux.io
