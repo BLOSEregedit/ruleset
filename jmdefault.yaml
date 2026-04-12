@@ -2,8 +2,6 @@
 # 规则格式参考：https://clash.wiki/configuration/rules.html
 payload:
   - DOMAIN-SUFFIX,klasen.se
-  - DOMAIN-SUFFIX,linode.com
-  - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-SUFFIX,catchpoint.com
   - DOMAIN-SUFFIX,postman.com
