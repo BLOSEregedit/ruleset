@@ -1,1 +1,82 @@
+# 规则格式参考：https://clash.wiki/configuration/rules.html
+payload:
+  # ==================================================
+  # === 富途美国及国际版专属主域 (moomoo US) ===
+  # ==================================================
+  # 富途美国及海外国际版 App 专属主域
+  - DOMAIN-SUFFIX,moomoo.com
+  - DOMAIN-SUFFIX,moomooapp.com
 
+  # 富途美国及海外专属量化 API 节点
+  - DOMAIN-SUFFIX,moomooapi.com
+
+  # 富途美国本土持牌与自清算实体
+  - DOMAIN-SUFFIX,futufinancial.com
+  - DOMAIN-SUFFIX,futuclearing.com
+  - DOMAIN-SUFFIX,futusg.com
+
+  # ==================================================
+  # === 老虎证券美国本土业务与自清算实体 (Tiger US) ===
+  # ==================================================
+  # 老虎针对美国本土居民的零售交易品牌及 App 专属域
+  - DOMAIN-SUFFIX,tradeup.com
+  - DOMAIN-SUFFIX,tradeupapp.com
+
+  # 老虎在美国本土全面推进美股自清算业务的专属产权域名
+  - DOMAIN-SUFFIX,marsclearing.com
+
+  # ==================================================
+  # === 嘉信理财美国核心中台与国际站 (Schwab US & International) ===
+  # ==================================================
+  # 嘉信国际站核心登录与鉴权网关
+  - DOMAIN,international.schwab.com
+
+  # 嘉信官方主域、网银及核心交易客户端
+  - DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,schwabclient.com
+
+  # 王牌专业交易软件 Thinkorswim (原德美利基础设施)
+  - DOMAIN-SUFFIX,thinkorswim.com
+  - DOMAIN-SUFFIX,tdameritrade.com
+  - DOMAIN-SUFFIX,tdamedia.com
+  - DOMAIN-SUFFIX,optionsxpress.com
+
+  # ==================================================
+  # === 第一证券 (Firstrade) ===
+  # ==================================================
+  # 华人常用美国零售券商主域
+  - DOMAIN-SUFFIX,firstrade.com
+  - DOMAIN-SUFFIX,firstrade.net
+
+  # Firstrade App 核心资产拉取、风控与下单网关
+  - DOMAIN-SUFFIX,ftolb.com
+
+  # ==================================================
+  # === 盈透证券 (Interactive Brokers / IBKR) ===
+  # ==================================================
+  # 全球多币种综合券商核心清算与技术主域
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,ibllc.com
+  - DOMAIN-SUFFIX,clientam.com
+
+  # ==================================================
+  # === 必贝证券 (BiteB / BPM Financial US) ===
+  # ==================================================
+  # 纯正美国持牌华人互联网券商
+  - DOMAIN-SUFFIX,bitbe.com
+  - DOMAIN-SUFFIX,bpmfinancial.com
+
+  # ==================================================
+  # === 罗宾汉证券 (Robinhood) ===
+  # ==================================================
+  # 美国本土新一代互联网券商
+  - DOMAIN-SUFFIX,robinhood.com
+  - DOMAIN-SUFFIX,rbnhd.com
+
+  # ==================================================
+  # === 亚美利哥证券 / 亿睿科 (E*TRADE) ===
+  # ==================================================
+  # 摩根士丹利旗下老牌美国互联网券商
+  - DOMAIN-SUFFIX,etrade.com
+  - DOMAIN-SUFFIX,etrade.net

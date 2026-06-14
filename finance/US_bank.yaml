@@ -1,0 +1,43 @@
+# 规则格式参考：https://clash.wiki/configuration/rules.html
+payload:
+  # ==================================================
+  # === 1. 华人远程开户主力：美国本土大型实体银行 ===
+  # ==================================================
+  # 华美银行 (East West Bank / Velo) - 大陆护照远程开户绝对主力，系统高度一体化
+  - DOMAIN-SUFFIX,eastwestbank.com
+  - DOMAIN-SUFFIX,velobank.com        # 华美专门针对全球华人直客的 Velo 数字化银行主域
+
+  # 国泰银行 (Cathay Bank) - 美国另一大资深华资实体银行，支持部分合规渠道远程或国内分行见证开户
+  - DOMAIN-SUFFIX,cathaybank.com
+
+  # 华盛顿州立银行 (State Bank of Texas) / 常见华人代理开户小众实体行
+  - DOMAIN-SUFFIX,statebankoftexas.com
+
+  # ==================================================
+  # === 2. 美国主流四大本土零售巨头实体银行 ===
+  # === (注：此类银行通常需要肉身赴美旅游，或通过特殊高净值渠道见证开户) ===
+  # ==================================================
+  # 美国银行 (Bank of America / BoA) - 留学生、赴美旅游持护照线下开户最常选择的大行
+  - DOMAIN-SUFFIX,bankofamerica.com
+  - DOMAIN-SUFFIX,bofa.com            # 移动端 App 及高频快捷网银跳转网关
+
+  # 大通银行 (Chase / 摩根大通) - 风控极严、但额度与信用卡生态极强的美国第一大零售行
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,jpmorganchase.com
+
+  # 花旗银行美国 (Citibank US) - 全球高净值见证开户常用（国内存足百万人民币可免肉身见证开美股/美银账户）
+  - DOMAIN-SUFFIX,citibank.com
+  - DOMAIN-SUFFIX,citi.com            # 花旗美国全域底层技术架构与 App 核心通信点
+
+  # 富国银行 (Wells Fargo) - 美国本土网点极多的传统零售巨头
+  - DOMAIN-SUFFIX,wellsfargo.com
+
+  # ==================================================
+  # === 3. 大陆护照可远程申请的美国数字化银行/数字账户 ===
+  # ==================================================
+
+  # 汇丰美国 (HSBC US) - 拥有国内/香港汇丰卓越理财账户后，可在国内持护照“0门槛”远程见证开立美国持牌户
+  - DOMAIN-SUFFIX,us.hsbc.com
+
+  # 摩根大通第一数码行 (Marble / 华人圈常通过护照远程开户的合作底层数字账户)
+  - DOMAIN-SUFFIX,mymarble.com

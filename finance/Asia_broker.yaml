@@ -1,1 +1,117 @@
+# 规则格式参考：https://clash.wiki/configuration/rules.html
+payload:
+  # --- 长桥 - 核心品牌主域名 (Retail & Global) ---
+  - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,longbridge.hk
+  - DOMAIN-SUFFIX,longbridge.sg
+  - DOMAIN-SUFFIX,longbridge.cn
+  - DOMAIN-SUFFIX,longbridge.app
+  - DOMAIN-SUFFIX,longbridge.global
+  - DOMAIN-SUFFIX,longbridgehk.com
+  - DOMAIN-SUFFIX,longbridge-inc.com
 
+  # --- 国际版与 区域 App 专属域名 (LongPort App) ---
+  - DOMAIN-SUFFIX,longport.com
+  - DOMAIN-SUFFIX,longport.hk
+  - DOMAIN-SUFFIX,longport.sg
+  - DOMAIN-SUFFIX,longport.io
+  - DOMAIN-SUFFIX,longbridgeapp.com
+  - DOMAIN-SUFFIX,longportapp.com
+  - DOMAIN-SUFFIX,longportapp.cn
+  - DOMAIN-SUFFIX,longportapp.sg
+
+  # --- 量化交易与生态开发 (Quant & OpenAPI) ---
+  - DOMAIN-SUFFIX,lbquant.com
+
+  # --- 后端核心、中台与辅助通信 (Whale Infrastructure) ---
+  - DOMAIN-SUFFIX,lbctrl.com
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,pbkrs.com
+  - DOMAIN-SUFFIX,lbsgctrl.com
+  - DOMAIN-SUFFIX,lbsgkrs.com
+
+  # --- 富途香港及全球核心主域 (富途牛牛) ---
+  - DOMAIN-SUFFIX,futuholdings.com
+  - DOMAIN-SUFFIX,futubull.com
+  - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,futustatic.com
+  - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futuie.com
+
+  # --- 富途香港本地持牌实体域 ---
+  - DOMAIN-SUFFIX,futuhk.com
+  - DOMAIN-SUFFIX,futuhk1.com
+  - DOMAIN-SUFFIX,futuhongkong.com
+
+  # --- 富途新加坡本地持牌实体域 (moomoo SG) ---
+  - DOMAIN-SUFFIX,moomoo.sg
+  - DOMAIN-SUFFIX,moomoo.com.sg
+
+  # --- 富途亚太量化交易开放平台 (富途OpenAPI) ---
+  - DOMAIN-SUFFIX,futuapi.com
+
+  # --- 富途企业 ESOP、金融与内部技术主域 ---
+  - DOMAIN-SUFFIX,futuesop.com
+  - DOMAIN-SUFFIX,futuhn.com
+  - DOMAIN-SUFFIX,futufin.com
+  - DOMAIN-SUFFIX,fututrade.com
+  - DOMAIN-SUFFIX,futuin.com
+  - DOMAIN-SUFFIX,fututrustee.com
+
+  # --- 老虎证券亚太区专属主域 (Tiger Brokers Asia) ---
+  - DOMAIN-SUFFIX,itiger.com
+  - DOMAIN-SUFFIX,tigerbrokers.com
+  - DOMAIN-SUFFIX,tigerfintech.com
+  - DOMAIN-SUFFIX,tigeroptions.com
+  - DOMAIN-SUFFIX,tigerbrokers.com.hk
+  - DOMAIN-SUFFIX,tigerbrokers.hk
+  - DOMAIN-SUFFIX,tigerbrokers.com.sg
+  - DOMAIN-SUFFIX,tigerbrokers.sg
+  - DOMAIN-SUFFIX,tigerapi.com
+  - DOMAIN-SUFFIX,tigerwealth.com
+  - DOMAIN-SUFFIX,tigerbrokers.us     # 修正笔误后的老虎专属域
+
+  # --- 华盛证券 (Valuable Capital / 华盛通) ---
+  - DOMAIN-SUFFIX,vctransact.com
+  - DOMAIN-SUFFIX,hstong.com
+  - DOMAIN-SUFFIX,valuable.com.hk
+  - DOMAIN-SUFFIX,vbkr.com
+
+  # --- 微牛证券香港 (Webull HK) ---
+  - DOMAIN-SUFFIX,webull.hk
+  - DOMAIN-SUFFIX,webull-hk.com
+
+  # --- 耀才证券 (Bright Smart Securities) ---
+  - DOMAIN-SUFFIX,bsgroup.com.hk
+
+  # --- 辉立证券 (Phillip Securities) ---
+  - DOMAIN-SUFFIX,phillip.com.hk
+  - DOMAIN-SUFFIX,poems.com.hk
+
+  # --- 盈立证券 (uSmart Securities) ---
+  - DOMAIN-SUFFIX,usmartsecurities.com
+  - DOMAIN-SUFFIX,usmartex.com
+
+  # --- 尊嘉证券 (Zunjia Securities) ---
+  - DOMAIN-SUFFIX,zhibogongbiao.com
+  - DOMAIN-SUFFIX,gofm.hk
+
+  # --- 艾德证券 (Eddid Securities) ---
+  - DOMAIN-SUFFIX,eddid.com.hk
+  - DOMAIN-SUFFIX,eddidsec.com
+
+  # --- 核心中资在港独立券商实体 (Chinese Brokers in HK) ---
+  - DOMAIN-SUFFIX,htisec.com
+  - DOMAIN-SUFFIX,clsa.com
+  - DOMAIN-SUFFIX,cmschina.com.hk
+  - DOMAIN-SUFFIX,ghsl.com.hk
+  - DOMAIN-SUFFIX,bocigroup.com
+  - DOMAIN-SUFFIX,ccbintl.com.hk
+
+  # === 致富证券 (Chief Securities) ===
+  - DOMAIN-SUFFIX,chiefgroup.com.hk
+  - DOMAIN-SUFFIX,chieffortune.com
+
+  # === 复星国际证券 (Fosun International Securities) ===
+  - DOMAIN-SUFFIX,fosunwealth.com
+  - DOMAIN-SUFFIX,fsgw.com.hk

@@ -1,0 +1,93 @@
+# 规则格式参考：https://clash.wiki/configuration/rules.html
+payload:
+  # ==================================================
+  # === 1. 香港传统大型、外资及本地实体银行 (无纯中资国家队) ===
+  # ==================================================
+  # 汇丰银行 (HSBC HK) - 香港第一大行
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,hsbc.hk
+  - DOMAIN-SUFFIX,hsbc.com
+
+  # 渣打银行 (Standard Chartered HK) - 本地核心发钞行
+  - DOMAIN-SUFFIX,sc.com.hk
+  - DOMAIN-SUFFIX,standardchartered.com.hk
+
+  # 恒生银行 (Hang Seng Bank) - 香港本地极具代表性的大型老牌实体行
+  - DOMAIN-SUFFIX,hangseng.com
+  - DOMAIN-SUFFIX,hangseng.com.hk
+
+  # 东亚银行 (BEA HK) - 香港本地最大华资独立实体银行
+  - DOMAIN-SUFFIX,hkbea.com
+  - DOMAIN-SUFFIX,hkbea.com.hk
+
+  # 花旗银行香港 (Citi HK) - 国际顶级银行在港独立持牌主域
+  - DOMAIN-SUFFIX,citibank.com.hk
+
+  # ==================================================
+  # === 2. 国内顶级互联网大厂战略投资/控股的香港虚拟银行 ===
+  # ==================================================
+  # 众安银行 (ZA Bank) - 众安保险背景，香港规模最大的虚拟银行
+  - DOMAIN-SUFFIX,za.group
+  - DOMAIN-SUFFIX,zabank.com
+
+  # 天星银行 (Airstar Bank) - 小米集团旗下虚拟银行
+  - DOMAIN-SUFFIX,airstarbank.com
+
+  # 蚂蚁银行（香港）(Ant Bank HK) - 蚂蚁集团（支付宝）全资旗下
+  - DOMAIN-SUFFIX,antbank.hk
+
+  # 理慧银行 (Livi Bank) - 京东科技、中银香港等合资设立的互联网银行
+  - DOMAIN-SUFFIX,livibank.com
+
+  # 富融银行 (Fusion Bank) - 腾讯集团、香港交易所、工银亚洲联合合资
+  - DOMAIN-SUFFIX,fusionbank.com
+
+  # 安一银行 (Opa Bank / 原平安壹账通银行 PAOB) - 陆金所控股旗下虚拟银行
+  - DOMAIN-SUFFIX,opabank.com.hk
+  - DOMAIN-SUFFIX,paob.com.hk
+
+  # ==================================================
+  # === 3. 新加坡本土三大绝对巨头实体银行 (主力核心) ===
+  # ==================================================
+  # 星展银行 (DBS / 包含储蓄银行 POSB) - 全东南亚最大银行，数字化程度极高
+  - DOMAIN-SUFFIX,dbs.com
+  - DOMAIN-SUFFIX,dbs.com.sg
+  - DOMAIN-SUFFIX,posb.com.sg
+  - DOMAIN-SUFFIX,dbsdigibank.com     # 星展手机银行 (DBS digibank) 核心鉴权域
+
+  # 大华银行 (UOB) - 对华人及跨境贸易极其友好、资本充足率极高的老牌大行
+  - DOMAIN-SUFFIX,uob.com.sg
+  - DOMAIN-SUFFIX,uobgroup.com
+  - DOMAIN-SUFFIX,pibt.uob.com.sg     # 大华核心个人网银通道与高频加密通信点
+
+  # 华侨银行 (OCBC) - 大陆居民最容易远程或现场开户的本土大行，底层架构极大
+  - DOMAIN-SUFFIX,ocbc.com
+  - DOMAIN-SUFFIX,ocbc.com.sg
+  - DOMAIN-SUFFIX,ocbc.io             # 华侨银行新一代数码微服务及安全动态令牌域
+
+  # ==================================================
+  # === 4. 国际顶级实体银行在新加坡的独立持牌运营域 ===
+  # ==================================================
+  # 汇丰银行新加坡 (HSBC SG)
+  - DOMAIN-SUFFIX,hsbc.com.sg
+
+  # 渣打银行 (Standard Chartered) - 修正纯域名匹配，完美接管新加坡与全球
+  - DOMAIN-SUFFIX,sc.com
+  - DOMAIN-SUFFIX,standardchartered.com
+
+  # 花旗银行新加坡 (Citibank SG) - 国际高净值客户高频使用
+  - DOMAIN-SUFFIX,citibank.com.sg
+  - DOMAIN-SUFFIX,citibank.sg
+
+  # ==================================================
+  # === 5. 新加坡全面持牌数码银行 (Digital Banks / 无物理网点) ===
+  # ==================================================
+  # GXS Bank - 东南亚超级 App 巨头 Grab 与新加坡电信 (Singtel) 强强联合设立的王牌数码行
+  - DOMAIN-SUFFIX,gxs.com.hk          # 跨境数据合规预留域
+  - DOMAIN-SUFFIX,gxs.com.sg          # GXS 核心主域与 App 下单通信
+
+  # 玛丽安数码银行 (MariBank) - 东南亚最大互联网巨头冬海集团 (Sea Group / 虾皮 Shopee 母公司) 全资设立
+  - DOMAIN-SUFFIX,maribank.com.sg
+
+  # 信安数码银行 (Trust Bank) - 渣打银行联合新加坡本地最大的连锁超市巨头 FairPrice 战略设立
+  - DOMAIN-SUFFIX,trustbank.sg
