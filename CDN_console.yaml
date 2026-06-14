@@ -1,0 +1,97 @@
+# NAME: CDN Cloud Console domain rules
+payload:
+  # Akamai
+  - DOMAIN-SUFFIX,akamai.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,akamaistatus.com
+  - DOMAIN-SUFFIX,akamaicentral.com
+  - DOMAIN-SUFFIX,akamaipartnertraining.com
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,csod.com
+  - DOMAIN-SUFFIX,linode.com
+  - DOMAIN-SUFFIX,go-mpulse.net
+
+  # Cloudflare
+  - DOMAIN-SUFFIX,dash.cloudflare.com
+  - DOMAIN-SUFFIX,api.cloudflare.com
+  - DOMAIN-SUFFIX,developers.cloudflare.com
+  - DOMAIN-SUFFIX,support.cloudflare.com
+  - DOMAIN-SUFFIX,cloudflarestatus.com
+
+  # AWS / CloudFront
+  - DOMAIN-SUFFIX,aws.amazon.com
+  - DOMAIN-SUFFIX,signin.aws
+  - DOMAIN-SUFFIX,awsapps.com
+  - DOMAIN-SUFFIX,app.aws
+  - DOMAIN-SUFFIX,aws.dev
+  - DOMAIN-SUFFIX,awsstatic.com
+  - DOMAIN-SUFFIX,console.aws.a2z.com
+  - DOMAIN-SUFFIX,api.aws
+  - DOMAIN-SUFFIX,cloudfront.amazonaws.com
+  - DOMAIN-SUFFIX,cloudfront-fips.amazonaws.com
+  - DOMAIN-SUFFIX,sso.amazonaws.com
+
+  # Google Cloud
+  - DOMAIN-SUFFIX,cloud.google.com
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,clients6.google.com
+  - DOMAIN-SUFFIX,oauth2.googleapis.com
+  - DOMAIN-SUFFIX,iam.googleapis.com
+  - DOMAIN-SUFFIX,cloudresourcemanager.googleapis.com
+  - DOMAIN-SUFFIX,serviceusage.googleapis.com
+  - DOMAIN-SUFFIX,compute.googleapis.com
+
+  # Azure
+  - DOMAIN-SUFFIX,portal.azure.com
+  - DOMAIN-SUFFIX,portal.azure.net
+  - DOMAIN-SUFFIX,ext.azure.com
+  - DOMAIN-SUFFIX,hosting.partners.azure.net
+  - DOMAIN-SUFFIX,management.azure.com
+  - DOMAIN-SUFFIX,graph.microsoft.com
+  - DOMAIN-SUFFIX,graph.windows.net
+  - DOMAIN-SUFFIX,login.microsoftonline.com
+  - DOMAIN-SUFFIX,login.microsoft.com
+  - DOMAIN-SUFFIX,login.live.com
+  - DOMAIN-SUFFIX,msauth.net
+  - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,msauthimages.net
+  - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,microsoftonline-p.com
+  - DOMAIN-SUFFIX,account.microsoft.com
+  - DOMAIN-SUFFIX,signup.azure.com
+  - DOMAIN-SUFFIX,bmx.azure.com
+  - DOMAIN-SUFFIX,shell.azure.com
+  - DOMAIN-SUFFIX,ux.console.azure.com
+  - DOMAIN-SUFFIX,azure.status.microsoft
+  - DOMAIN-SUFFIX,learn.microsoft.com
+  - DOMAIN-SUFFIX,azure.microsoft.com
+  - DOMAIN-SUFFIX,go.microsoft.com
+  - DOMAIN-SUFFIX,aka.ms
+
+  # Fastly
+  - DOMAIN-SUFFIX,fastly.com
+  - DOMAIN-SUFFIX,fastlystatus.com
+
+  # Bunny.net
+  - DOMAIN-SUFFIX,bunny.net
+
+  # CDN77
+  - DOMAIN-SUFFIX,cdn77.com
+
+  # KeyCDN
+  - DOMAIN-SUFFIX,keycdn.com
+
+  # Gcore
+  - DOMAIN-SUFFIX,gcore.com
+
+  # Edgecast / Edgio
+  - DOMAIN-SUFFIX,edgecast.io
+  - DOMAIN-SUFFIX,edgecast.com
+  - DOMAIN-SUFFIX,edgio.app
+  - DOMAIN-SUFFIX,edg.io
+
+  # Imperva
+  - DOMAIN-SUFFIX,imperva.com
+  - DOMAIN-SUFFIX,incapsula.com

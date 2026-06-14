@@ -1,0 +1,88 @@
+# NAME: Overseas SaaS Console / Official Sites
+payload:
+  # MongoDB
+  - DOMAIN-SUFFIX,mongodb.com
+  - DOMAIN-SUFFIX,mongodb.org
+
+  # Zendesk
+  - DOMAIN-SUFFIX,www.zendesk.com
+  - DOMAIN-SUFFIX,support.zendesk.com
+  - DOMAIN-SUFFIX,community.zendesk.com
+  - DOMAIN-SUFFIX,developer.zendesk.com
+  - DOMAIN-SUFFIX,status.zendesk.com
+  - DOMAIN-SUFFIX,assets.zendesk.com
+  - DOMAIN-SUFFIX,static.zdassets.com
+  - DOMAIN-SUFFIX,api.getbase.com
+  - DOMAIN-SUFFIX,app.futuresimple.com
+  - DOMAIN-SUFFIX,app.smooch.io
+  - DOMAIN-SUFFIX,api.smooch.io
+  - DOMAIN-SUFFIX,dashboard.zopim.com
+  - DOMAIN-SUFFIX,rtm.zopim.com
+
+  # Vonage / Nexmo
+  - DOMAIN-SUFFIX,vonage.com
+  - DOMAIN-SUFFIX,nexmo.com
+  - DOMAIN-SUFFIX,vonagestatus.com
+  - DOMAIN-SUFFIX,vonageapi.statuspage.io
+  - DOMAIN-SUFFIX,vcc.statuspage.io
+  - DOMAIN-SUFFIX,vonagebusiness.com
+  - DOMAIN-SUFFIX,tokbox.com
+  - DOMAIN-SUFFIX,opentok.com
+
+  # Couchbase
+  - DOMAIN,couchbase.com
+  - DOMAIN-SUFFIX,www.couchbase.com
+  - DOMAIN,cloud.couchbase.com
+  - DOMAIN-SUFFIX,cloudapi.cloud.couchbase.com
+  - DOMAIN-SUFFIX,api.cloud.couchbase.com
+  - DOMAIN-SUFFIX,docs.couchbase.com
+  - DOMAIN-SUFFIX,developer.couchbase.com
+  - DOMAIN-SUFFIX,support.couchbase.com
+  - DOMAIN-SUFFIX,status.couchbase.com
+  - DOMAIN-SUFFIX,forums.couchbase.com
+  - DOMAIN-SUFFIX,learn.couchbase.com
+  - DOMAIN-SUFFIX,blog.couchbase.com
+
+  # Redis
+  - DOMAIN,redis.io
+  - DOMAIN-SUFFIX,cloud.redis.io
+  - DOMAIN-SUFFIX,status.redis.io
+  - DOMAIN-SUFFIX,trust.redis.io
+  - DOMAIN-SUFFIX,download.redis.io
+  - DOMAIN-SUFFIX,app.redislabs.com
+  - DOMAIN-SUFFIX,api.redislabs.com
+  - DOMAIN-SUFFIX,support.redislabs.com
+
+  # Catchpoint
+  - DOMAIN-SUFFIX,catchpoint.com
+
+  # WebPageTest
+  - DOMAIN-SUFFIX,webpagetest.org
+  - DOMAIN-SUFFIX,ioapp.catchpoint.com
+
+  # Similarweb
+  - DOMAIN-SUFFIX,www.similarweb.com
+  - DOMAIN-SUFFIX,pro.similarweb.com
+  - DOMAIN-SUFFIX,secure.similarweb.com
+  - DOMAIN-SUFFIX,account.similarweb.com
+  - DOMAIN-SUFFIX,developers.similarweb.com
+  - DOMAIN-SUFFIX,docs.similarweb.com
+  - DOMAIN-SUFFIX,api.similarweb.com
+  - DOMAIN-SUFFIX,support.similarweb.com
+
+  # Postman
+  - DOMAIN-SUFFIX,postman.com
+  - DOMAIN-SUFFIX,getpostman.com
+  - DOMAIN-SUFFIX,postman.co
+  - DOMAIN-SUFFIX,learning.postman.com
+  - DOMAIN-SUFFIX,support.postman.com
+  - DOMAIN-SUFFIX,status.postman.com
+  - DOMAIN-SUFFIX,community.postman.com
+  - DOMAIN-SUFFIX,academy.postman.com
+  - DOMAIN-SUFFIX,postman-echo.com
+
+  - DOMAIN-SUFFIX,twilio.com
+  - DOMAIN-SUFFIX,twiliocdn.com
+
+  # Twilio SendGrid, only keep if you also use SendGrid
+  - DOMAIN-SUFFIX,sendgrid.com
