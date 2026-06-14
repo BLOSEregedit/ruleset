@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,longport.sg
   - DOMAIN-SUFFIX,longport.io
   - DOMAIN-SUFFIX,longbridgeapp.com
+  - DOMAIN-SUFFIX,api-status.longbridgeapp.com
   - DOMAIN-SUFFIX,longportapp.com
   - DOMAIN-SUFFIX,longportapp.cn
   - DOMAIN-SUFFIX,longportapp.sg
@@ -26,6 +27,7 @@ payload:
   # --- 后端核心、中台与辅助通信 (Whale Infrastructure) ---
   - DOMAIN-SUFFIX,lbctrl.com
   - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,api.lbkrs.com
   - DOMAIN-SUFFIX,pbkrs.com
   - DOMAIN-SUFFIX,lbsgctrl.com
   - DOMAIN-SUFFIX,lbsgkrs.com
