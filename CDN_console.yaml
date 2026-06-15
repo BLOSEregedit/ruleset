@@ -95,3 +95,32 @@ payload:
   # Imperva
   - DOMAIN-SUFFIX,imperva.com
   - DOMAIN-SUFFIX,incapsula.com
+
+  # ------  tools  ------
+  # Catchpoint
+  - DOMAIN-SUFFIX,catchpoint.com
+
+  # WebPageTest
+  - DOMAIN-SUFFIX,webpagetest.org
+  - DOMAIN-SUFFIX,ioapp.catchpoint.com
+
+  # Similarweb
+  - DOMAIN-SUFFIX,www.similarweb.com
+  - DOMAIN-SUFFIX,pro.similarweb.com
+  - DOMAIN-SUFFIX,secure.similarweb.com
+  - DOMAIN-SUFFIX,account.similarweb.com
+  - DOMAIN-SUFFIX,developers.similarweb.com
+  - DOMAIN-SUFFIX,docs.similarweb.com
+  - DOMAIN-SUFFIX,api.similarweb.com
+  - DOMAIN-SUFFIX,support.similarweb.com
+
+  # Postman
+  - DOMAIN-SUFFIX,postman.com
+  - DOMAIN-SUFFIX,getpostman.com
+  - DOMAIN-SUFFIX,postman.co
+  - DOMAIN-SUFFIX,learning.postman.com
+  - DOMAIN-SUFFIX,support.postman.com
+  - DOMAIN-SUFFIX,status.postman.com
+  - DOMAIN-SUFFIX,community.postman.com
+  - DOMAIN-SUFFIX,academy.postman.com
+  - DOMAIN-SUFFIX,postman-echo.com
