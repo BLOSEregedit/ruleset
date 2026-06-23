@@ -2,6 +2,7 @@
 payload:
   # Akamai
   - DOMAIN-SUFFIX,akamai.com
+  - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,akamaistatus.com
   - DOMAIN-SUFFIX,akamaicentral.com
@@ -10,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,csod.com
   - DOMAIN-SUFFIX,linode.com
   - DOMAIN-SUFFIX,go-mpulse.net
+
 
   # Cloudflare
   - DOMAIN-SUFFIX,dash.cloudflare.com
